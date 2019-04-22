@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mzj.cisco">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_home_page" />
+        <activity android:name=".current_config" />
+        <activity android:name=".DisplayStatus" />
+        <activity
+            android:name=".Config"
+            android:label="@string/title_activity_config" />
+        <activity android:name=".Interface_config" />
+        <activity android:name=".routing" />
+        <activity android:name=".Static_route" />
+        <activity android:name=".rip" />
+        <activity android:name=".interface_health" />
+        <activity
+            android:name=".Syslog"
+            android:label="@string/title_activity_syslog" />
+        <activity
+            android:name=".OSPF"
+            android:label="@string/title_activity_ospf" />
+        <activity
+            android:name=".access_list"
+            android:label="@string/title_activity_access_list" />
+        <activity
+            android:name=".router"
+            android:label="@string/title_activity_router"></activity>
+    </application>
+
+</manifest>

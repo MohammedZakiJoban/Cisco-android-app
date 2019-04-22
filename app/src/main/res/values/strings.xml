@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cisco</string>
+    <string name="title_activity_config">Config</string>
+
+
+    <string-array name="device">
+
+        <item>R1</item>
+        <item>R2</item>
+        <item>Syslog server</item>
+    </string-array>
+    <string name="title_activity_syslog">Syslog</string>
+    <string name="title_activity_get_syslog">Get_syslog</string>
+    <string name="title_activity_exec_channel">ExecChannel</string>
+    <string name="title_activity_ospf">OSPF</string>
+    <string name="title_activity_access_list">access_list</string>
+    <string name="title_activity_router">router</string>
+</resources>
